@@ -1,0 +1,13 @@
+.orders-page{
+    h1{
+        text-align: center;
+        padding-bottom:30px;
+    }
+    .order-cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

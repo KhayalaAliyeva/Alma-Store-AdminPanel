@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    background: #231f20;
+    margin-bottom:30px;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            width: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img{
+                width: 150px;
+                height: 75px;
+            }
+        }
+        ul{
+            width: 60%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+                margin-left:15px;
+                
+                a{
+                    color:#fff;
+                }
+            
+            }
+        }
+        .right{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            color:#fff;
+            background: none;
+            border: none;
+            svg{
+                margin-left:15px;
+                path{
+                    fill:#fff;
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+}
